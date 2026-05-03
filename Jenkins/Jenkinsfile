@@ -11,9 +11,9 @@ pipeline{
                 sh 'echo "this is test step"'
             }
         }
-        stage('deploy'){
+        stage('agile'){
             steps{
-                sh 'echo "this is depoly step"'
+                sh 'echo "this is agile step"'
             }
         }
     }
